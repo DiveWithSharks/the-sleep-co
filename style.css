@@ -10,3 +10,14 @@
     padding: 0.5rem;
     border: 1px solid lightgrey;
 }
+
+body { border: none; }
+html { border: none; }
+
+/* Image styles  */
+.bg-image{
+    background-image: url('/images/chien.jpg');
+    background-size: cover;
+    min-height: 10rem;
+    
+}
