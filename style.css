@@ -1,3 +1,10 @@
+ /* Colors 
+ Yellow : #FFBE00
+ Navy : #192B37
+ */
+
+
+
 * {
     padding: 0%;
     margin: 0%;
@@ -11,11 +18,9 @@ section {
 }
 
 body { 
-    border: none;
     font-family: 'Catamaran', sans-serif;
     color: #192B37;
 }
-html { border: none; }
 
 /* Image styles  */
 .bg-image{
@@ -34,10 +39,28 @@ html { border: none; }
     color: white;
 }
 
+.featured-text {color: #FFBE00;}
+
 .text-left   { text-align: left; }
-
 .text-center { text-align: center; }
-
 .text-right  { text-align: right; }
 
+.tall-80     {min-height: 80vh;}
+.tall-90     {min-height: 90vh;}
+.tall-100     {min-height: 100vh;}
 
+/* Header styles */
+header{
+    background-image: url('/images/white-bed.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+header h3 {
+    font-size: 4.5rem;
+    line-height: 1;
+}
+
+header h1 {
+    font-weight: 200;
+}
