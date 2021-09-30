@@ -6,12 +6,15 @@
 
 /* Temporary styles for structural html */
 
-* {
-    padding: 0.5rem;
+section {
     border: 1px solid lightgrey;
 }
 
-body { border: none; }
+body { 
+    border: none;
+    font-family: 'Catamaran', sans-serif;
+    color: #192B37;
+}
 html { border: none; }
 
 /* Image styles  */
@@ -30,3 +33,11 @@ html { border: none; }
     background-color: #192B37;
     color: white;
 }
+
+.text-left   { text-align: left; }
+
+.text-center { text-align: center; }
+
+.text-right  { text-align: right; }
+
+
