@@ -64,3 +64,8 @@ header h3 {
 header h1 {
     font-weight: 200;
 }
+
+/* Gallery styles */
+.title-gallery {
+    font-size: 2rem;
+}
