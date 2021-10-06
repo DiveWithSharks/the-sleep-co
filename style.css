@@ -53,6 +53,10 @@ h2 { font-size: 2.5rem;
      margin-bottom: 1rem;
     }
 
+h3 {
+    line-height: 1;
+}
+
 p{
     font-weight: 200;
     line-height: 1.5;
@@ -65,6 +69,16 @@ p:last-child {
 
 
 .featured-text {color: #FFBE00;}
+.white-text {color: #ffffff;}
+
+.small-text    { font-size: 1.5rem;}
+.big-text      { font-size: 4.5rem;
+
+}
+
+.font-weight-light {font-weight: 200;}
+.font-weight-normal {font-weight: 400;}
+.font-weight-extra-bold {font-weight: 800;}
 
 .text-left   { text-align: left; }
 .text-center { text-align: center; }
@@ -95,6 +109,11 @@ header h1 {
 .bg-pug {
     background-image: url(/images/chien.jpg);
     background-position: 50% 35%;
+}
+
+.bg-pillow {
+    background-image: url(/images/pillow-yellow.jpg);
+    background-position: 50% 57%;
 }
 
 /* Icon Grid */
