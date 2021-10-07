@@ -33,12 +33,14 @@ body {
 /* Universal styles & utility classes */
 .padded    { padding: 5% ;}
 .padded-sm { padding: 1rem;}
+.padded-lg { padding: 10% ;}
 
 .bg-dark  {
     background-color: #192B37;
     color: white;
 }
 
+.tall-30     {min-height: 30vh;}
 .tall-50     {min-height: 50vh;}
 .tall-60     {min-height: 60vh;}
 .tall-70     {min-height: 70vh;}
@@ -72,8 +74,23 @@ p:last-child {
 .white-text {color: #ffffff;}
 
 .small-text    { font-size: 1.5rem;}
+.medium-text   {
+    font-size: 2.2rem;
+    line-height: 1.5;
+}
 .big-text      { font-size: 4.5rem;
+}
 
+.subtitle {
+    font-size: 1rem;
+    color: rgb(120, 120, 125);
+}
+
+.quote-icon {
+    font-size: 6rem;
+    display: inline-block;
+    color: rgb(120, 120, 125);
+    line-height: 1;
 }
 
 .font-weight-light {font-weight: 200;}
